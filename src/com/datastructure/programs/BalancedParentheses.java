@@ -50,7 +50,7 @@ public class BalancedParentheses {
             else if (arr[i] == ')' || arr[i] == '}' || arr[i] == ']')
             {
                 obj.pop();
-            }
+            }	
         }
 
         if (obj.isEmpty())
